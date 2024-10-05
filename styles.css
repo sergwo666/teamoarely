@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Rosa suave de fondo */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffccff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff66b2; /* Rosa fuerte para el texto */
+    font-size: 4em;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(255, 102, 178, 0.5);
+}
+
+.heart {
+    font-size: 5em;
+    margin-top: 20px;
+    color: #ff6699;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
